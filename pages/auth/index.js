@@ -67,7 +67,7 @@ Page({
           })
         } else {
           wx.lin.showMessage({
-            type: 'error',
+            type: 'error222',
             content: info.msg
           })
         }

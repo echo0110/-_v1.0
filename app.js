@@ -4,9 +4,10 @@ import wxutil from "./miniprogram_npm/@yyjeffrey/wxutil/index"
 App({
   globalData: {
     appId: wx.getAccountInfoSync().miniProgram.appId,
-    githubURI: "YYJeffrey/july_client",
-    githubURL: "https://github.com/YYJeffrey/july_client",
-    likeAuthor: "https://img.yejiefeng.com/qr/qr_like.png", // 作者的赞赏码
+    githubURI: "GitHub",
+    githubURL: "https://github.com/echo0110",
+    likeAuthor: "/images/logo/appreciate.jpg",
+     // 作者的赞赏码
     userDetail: null, // 用户信息详情
     tokenExpires: 86400 * 28 // Token过期时间
   },
