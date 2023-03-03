@@ -27,6 +27,7 @@ Page({
    * 获取更多树洞
    */
   async getMoreHoles(holePaging) {
+    console.log("#########################getMoreHoles");
     const data = await holePaging.getMore()
     if (!data) {
       return
@@ -47,6 +48,8 @@ Page({
    * 下拉刷新
    */
   onPullDownRefresh() {
+    console.log("#########################onPullDownRefresh");
+    
     this.initHoles()
     wx.stopPullDownRefresh()
     wx.vibrateShort()
